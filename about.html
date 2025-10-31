@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | DICHI</title>
+
+    <style>
+        /* =====================
+           Base Styles
+        ===================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Georgia", serif;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        /* =====================
+           Header
+        ===================== */
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #000000;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.05em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #0a355d;
+        }
+
+        /* =====================
+           About Section
+        ===================== */
+        .about-section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-section h1 {
+            color: #0a355d;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            color: #333333;
+            font-size: 1.1em;
+            margin-bottom: 25px;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 25px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #0a355d;
+            margin-bottom: 10px;
+        }
+
+        /* =====================
+           Footer
+        ===================== */
+        footer {
+            background-color: #0a355d;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="topbar">
+        <div class="logo">
+            <img src="image.png" alt="Logo">
+            <span><i>EV</i></span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <h1>About Us</h1>
+        <p>
+            Welcome to <strong>DICHI</strong>! We are a creative and tech-driven team passionate
+            about designing modern, user-friendly digital experiences. Our goal is to help brands
+            and individuals bring their ideas to life on the web.
+        </p>
+
+        <div class="about-grid">
+            <div class="card">
+                <h3>Our Mission</h3>
+                <p>
+                    To deliver elegant, efficient, and accessible web solutions that
+                    make a real impact for our clients.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Our Vision</h3>
+                <p>
+                    To be a trusted name in design and development, known for creativity,
+                    innovation, and integrity.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Our Values</h3>
+                <p>
+                    We believe in teamwork, quality, honesty, and continuous learning
+                    to ensure lasting success.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 DICHI. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

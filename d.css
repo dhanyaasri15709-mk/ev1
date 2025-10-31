@@ -1,0 +1,226 @@
+/* =====================
+   Reset & Base Styles
+===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =====================
+   Top Bar
+===================== */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topbar .left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar .logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topbar .sitename {
+    font-weight: bold;
+    font-size: 20px;
+    color: #222;
+}
+
+.topbar .right-section a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0077cc;
+    gap: 15px;
+}
+
+.right-section {
+    position: absolute;
+    top: 50%;
+    /* adjust as needed */
+    right: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.right-section a:hover {
+    color: #005999;
+}
+
+.topbar.right-section a:hover {
+    color: #005999;
+}
+
+/* =====================
+   Page Header
+===================== */
+.page-header {
+    padding: 20px;
+    background-color: #e8f0fe;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.page-header .subnav a {
+    text-decoration: none;
+    color: #0077cc;
+    margin: 0 5px;
+}
+
+.page-header .subnav a:hover {
+    text-decoration: underline;
+}
+
+.page-header p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* =====================
+   Main Content
+===================== */
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.content h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #222;
+    border-bottom: 2px solid #0077cc;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.content h3 {
+    margin-top: 15px;
+    color: #444;
+    font-style: italic;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* =====================
+   Sidebar / Infobox
+===================== */
+.infobox {
+    flex: 1;
+    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 300px;
+    height: fit-content;
+}
+
+.infobox h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.infobox img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.infotable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.infotable th,
+.infotable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.infotable th {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 14px;
+}
+
+.infotable td {
+    font-size: 14px;
+}
+
+/* =====================
+   Footer
+===================== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* =====================
+   Responsive Design
+===================== */
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+
+    .infobox {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

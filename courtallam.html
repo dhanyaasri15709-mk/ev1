@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courtallam Waterfalls</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #b2ebf2;
+            color: black;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-style: italic;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: black;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            line-height: 1.6;
+            font-size: 1.05em;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #b2ebf2;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #b2ebf2;
+            color: black;
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .map-container {
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .back-btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #b2ebf2;
+            color: #000;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #b2ebf2;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #001f4d;
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Courtallam Waterfalls</h1>
+        <p>The Spa of South India</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>🌿 Introduction</h2>
+            <p class="info">
+                Courtallam (also known as Kutralam) is a scenic town located in the Tenkasi district of Tamil Nadu, at
+                the foothills of the Western Ghats. Often called the “Spa of South India,” it is famous for its numerous
+                waterfalls and natural beauty. The town attracts thousands of tourists every year for its rejuvenating
+                waterfalls, believed to have medicinal properties.
+            </p>
+        </section>
+
+        <section>
+            <h2>💧 Major Waterfalls</h2>
+            <ul class="info">
+                <li><b>Main Falls (Peraruvi):</b> The most popular and largest of all, located near the town center. The
+                    water here is said to contain herbs from the forests.</li>
+                <li><b>Five Falls (Aintharuvi):</b> Water splits into five streams as it cascades down, resembling the
+                    five heads of a cobra.</li>
+                <li><b>Old Courtallam Falls (Pazhaya Courtallam):</b> A peaceful spot with gentle falls ideal for family
+                    visits.</li>
+                <li><b>Tiger Falls (Puliyaruvi):</b> A small but scenic fall, great for swimming and picnicking.</li>
+                <li><b>Shenbagadevi Falls:</b> Located near a temple dedicated to Goddess Shenbagadevi; accessible by
+                    trekking.</li>
+                <li><b>Honey Falls (Thenaruvi):</b> Known for its height and purity, located deep in the forest.</li>
+                <li><b>Orchard Falls (Pazhathotta Aruvi):</b> Surrounded by fruit orchards, providing a refreshing and
+                    scenic atmosphere.</li>
+                <li><b>Sitraruvi (Small Falls):</b> A smaller version of Main Falls, popular among locals.</li>
+                <li><b>Chitraruvi:</b> Another beautiful cascade located nearby.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🌳 Ecological Importance</h2>
+            <p class="info">
+                The region around Courtallam is part of the Western Ghats, a UNESCO World Heritage Site known for its
+                biodiversity. The forests surrounding the falls host:
+            </p>
+            <ul class="info">
+                <li>Medicinal herbs and plants</li>
+                <li>Diverse bird species</li>
+                <li>Rare butterflies and insects</li>
+                <li>Freshwater fish and amphibians</li>
+            </ul>
+            <p class="info">
+                The waterfalls are fed by the Chittar River, ensuring year-round water flow, especially during the
+                monsoon season.
+            </p>
+        </section>
+
+        <section>
+            <h2>🏞️ Tourist Attractions Nearby</h2>
+            <ul class="info">
+                <li><b>Kutralanathar Temple:</b> Ancient temple dedicated to Lord Shiva, located near Main Falls.</li>
+                <li><b>Papanasam Dam:</b> A scenic dam located about 20 km away, ideal for picnics.</li>
+                <li><b>Agasthiyar Falls and Hills:</b> Famous for trekking and spiritual significance.</li>
+                <li><b>Eco Park & Botanical Garden:</b> Offers a relaxing environment for families.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🌦️ Best Time to Visit</h2>
+            <p class="info">
+                <b>June to September:</b> During the southwest monsoon when the waterfalls are in full flow.<br>
+                Early mornings and evenings provide the best views and pleasant weather.
+            </p>
+        </section>
+
+        <section>
+            <h2>🚗 How to Reach</h2>
+            <table>
+                <tr>
+                    <th>By Air</th>
+                    <td>Tuticorin Airport (around 90 km)</td>
+                </tr>
+                <tr>
+                    <th>By Train</th>
+                    <td>Tenkasi Junction (6 km)</td>
+                </tr>
+                <tr>
+                    <th>By Road</th>
+                    <td>Well-connected by buses and taxis from Tirunelveli, Madurai, and other Tamil Nadu cities.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>🛏️ Accommodation</h2>
+            <p class="info">
+                Visitors can find budget lodges, resorts, and government guest houses near the Main Falls and Tenkasi
+                town.
+            </p>
+        </section>
+
+        <section>
+            <h2>🌺 Conclusion</h2>
+            <p class="info">
+                Courtallam Waterfalls is not just a tourist spot—it’s a blend of natural beauty, spirituality, and
+                healing power. Whether you seek relaxation, photography, or adventure, Courtallam provides a refreshing
+                escape into nature’s lap.
+            </p>
+        </section>
+
+        <section>
+            <h2>📸 Photo Gallery</h2>
+            <div class="gallery">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/15/c7/f5/courtallam-main-falls.jpg?w=800&h=500&s=1"
+                    alt="Courtallam Main Falls">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRcMfP0h6zHz5BnpzEvIoEuy55GCMbjWJhig&s"
+                    alt="Courtallam Five Falls">
+                <img src="https://media.assettype.com/outlooktraveller%2F2024-05%2F3190ac8e-18fe-41c9-a8ab-6ec2bf7c9d6c%2FCourtallam__2_.jpg?w=640&auto=format%2Ccompress"
+                    alt="Courtallam Nature">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Main_Falls_From_Thalavai_House_Hotel.jpg"
+                    alt="Main Falls View">
+                <img src="https://kuttralamresorts.com/wp-content/uploads/2023/09/Kumbhavurutty-Waterfall-720x720.jpg"
+                    alt="Scenic Courtallam View">
+                <img src="https://th-i.thgim.com/public/incoming/xw5g76/article65644177.ece/alternates/LANDSCAPE_1200/2315_15_7_2022_18_32_38_1_MAINFALLS.JPG"
+                    alt="Courtallam Nature">
+                <img src="https://rangandatta.wordpress.com/wp-content/uploads/2022/01/courtalam-great-falls-2.jpg"
+                    alt="Main Falls View">
+                <img src="https://magikindia.com/wp-content/uploads/2015/12/temple.jpg">
+            </div>
+        </section>
+
+        <section>
+            <h2>🗺️ Map View</h2>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.688357896562!2d77.27309357481643!3d8.943505091201692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b041110a46f9cbb%3A0x249210dfc35e6aa8!2sCourtallam%20Main%20Falls!5e0!3m2!1sen!2sin!4v1729745824937!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <div class="button-container">
+        <a href="page.html" class="back-btn">← Back</a>
+    </div>
+
+</body>
+
+</html>

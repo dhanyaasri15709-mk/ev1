@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudumalai National Park</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #b2ebf2;
+            color: black;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-style: italic;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: black;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            line-height: 1.6;
+        }
+
+        /* Table for timings and fees */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #b2ebf2;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #b2ebf2;
+            color: black;
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .back-btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #b2ebf2;
+            color: #000;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #b2ebf2;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #001f4d;
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mudumalai National Park</h1>
+        <p>The Jewel of the Nilgiris</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Mudumalai National Park</h2>
+            <p class="info">
+                Mudumalai National Park is located in the Nilgiris district of Tamil Nadu, India, bordering Karnataka
+                and Kerala. It is part of the Nilgiri Biosphere Reserve and is famous for its rich biodiversity,
+                including tigers,
+                elephants, leopards, and numerous bird species.
+            </p>
+        </section>
+
+        <section>
+            <h2>📍 Location</h2>
+            <p class="info">
+                <b>State:</b> Tamil Nadu<br>
+                <b>District:</b> Nilgiris<br>
+                <b>Nearest Town:</b> Masinagudi (37 km from Ooty)<br>
+                <b>Coordinates:</b> Between 11°32′N and 76°35′E
+            </p>
+        </section>
+
+        <section>
+            <h2>🌳 Area and Terrain</h2>
+            <p class="info">
+                <b>Total Area:</b> Around 321 square kilometers<br>
+                <b>Altitude Range:</b> 850 to 1250 meters above sea level<br>
+                <b>Terrain:</b> Undulating hills, valleys, and riverine areas<br>
+                <b>Rivers:</b> Moyar River flows through the park, forming a lifeline for wildlife.
+            </p>
+        </section>
+
+        <section>
+            <h2>🐘 Flora</h2>
+            <p class="info">
+                Mudumalai boasts tropical moist deciduous, dry deciduous, and thorn forests. Major plant species
+                include:
+            </p>
+            <ul class="info">
+                <li>Teak</li>
+                <li>Bamboo</li>
+                <li>Sandalwood</li>
+                <li>Terminalia</li>
+                <li>Grewia tiliaefolia</li>
+                <li>Indian Rosewood</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🦁 Fauna</h2>
+            <p class="info">
+                Mudumalai is home to more than 50 species of mammals, 200 species of birds, 21 species of amphibians,
+                and 34 species of reptiles.
+                Key animals include:
+            </p>
+            <ul class="info">
+                <li>Bengal Tiger 🐅</li>
+                <li>Indian Elephant 🐘</li>
+                <li>Gaur (Indian Bison)</li>
+                <li>Leopard</li>
+                <li>Sloth Bear</li>
+                <li>Sambar Deer</li>
+                <li>Spotted Deer (Chital)</li>
+                <li>Langurs and Macaques</li>
+            </ul>
+            <p><b>Notable Birds:</b> Malabar Grey Hornbill, Crested Serpent Eagle, Peacock, Grey Junglefowl.</p>
+        </section>
+
+        <section>
+            <h2>🌦️ Climate</h2>
+            <p class="info">
+                <b>Temperature:</b> 15°C to 35°C<br>
+                <b>Best Time to Visit:</b> December to June<br>
+                <b>Rainfall:</b> Receives both southwest and northeast monsoons.
+            </p>
+        </section>
+
+        <section>
+            <h2>🌿 Tourism and Activities</h2>
+            <p class="info">
+                Visitors can enjoy:
+            </p>
+            <ul class="info">
+                <li>Jungle Safari (by van or jeep)</li>
+                <li>Elephant Camp Visit</li>
+                <li>Bird Watching</li>
+                <li>Nature Walks</li>
+                <li>Wildlife Photography</li>
+            </ul>
+            <p><b>Nearby Attractions:</b> Theppakadu Elephant Camp, Moyar River Viewpoint, Ooty, and Masinagudi.</p>
+        </section>
+
+        <section>
+            <h2>💡 Conservation Importance</h2>
+            <p class="info">
+                Mudumalai is part of Project Tiger Reserve and plays a crucial role in protecting endangered species and
+                preserving biodiversity.
+                It ensures the survival of wildlife corridors connecting Bandipur, Wayanad, and Nagarhole National
+                Parks.
+            </p>
+        </section>
+
+        <section>
+            <h2>🧭 How to Reach</h2>
+            <p class="info">
+                <b>By Air:</b> Nearest airport – Coimbatore (160 km)<br>
+                <b>By Rail:</b> Nearest station – Udhagamandalam (Ooty)<br>
+                <b>By Road:</b> Accessible via Gudalur–Ooty road or from Mysore through Bandipur.
+            </p>
+        </section>
+
+        <section>
+            <h2>🌱 Interesting Facts</h2>
+            <ul class="info">
+                <li>Declared a Wildlife Sanctuary in 1940 and upgraded to a Tiger Reserve in 2007.</li>
+                <li>Houses one of the highest densities of elephants in South India.</li>
+                <li>Forms part of the Nilgiri Biosphere Reserve, India’s first biosphere reserve (1986).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="https://media1.thrillophilia.com/filestore/zyk5lqym1wik1t6zgopf73xkkqc8_shutterstock_1600599586.jpg"
+                    alt="Mudumalai forest view">
+                <img src="https://i0.wp.com/kaziranganationalparkassam.in/wp-content/uploads/2021/06/OI000083.jpg?resize=648%2C486&ssl=1"
+                    alt="Elephants at Mudumalai">
+                <img src="https://thewandertherapy.com/wp-content/uploads/2024/01/6.wild-pastures-masinagudi.jpg-.jpg"
+                    alt="Masinagudi landscape">
+                <img src="https://imgmediagumlet.lbb.in/media/2019/05/5ccf2a3e25468d4083198207_1557080638527.jpg"
+                    alt="Tiger Reserve gate">
+                <img src="https://www.tourdeooty.com/images/mudumalai-national-park-masinagudi-4.webp"
+                    alt="Wild elephants">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA3JLYXITBwPnNSTY_h4_3LMEMVxvL2j2Bzg&s"
+                    alt="River view Mudumalai">
+                <img
+                    src="https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/21/0093b67e7e21d2acea2777ad96493203_400x400.jpg">
+                <img src="https://www.trodly.com/pictures/attraction/3293.jpg" alt="River view Mudumalai">
+            </div>
+        </section>
+
+        <section>
+            <h2>Map View</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15736.479513253485!2d76.5606563!3d11.5553886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f0e4e16d7e23%3A0x9d2029f9781180f0!2sMudumalai%20National%20Park!5e0!3m2!1sen!2sin!4v1698233612345!5m2!1sen!2sin"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <div class="button-container">
+        <a href="page.html" class="back-btn">← Back</a>
+    </div>
+
+</body>
+
+</html>

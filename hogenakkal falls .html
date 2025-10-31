@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogenakkal Falls</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f9f9;
+            color: #073b4c;
+        }
+
+        header {
+            background-color: #06d6a0;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.1em;
+        }
+
+        section {
+            padding: 20px 40px;
+        }
+
+        h2 {
+            color: #06d6a0;
+            border-left: 5px solid #118ab2;
+            padding-left: 10px;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        .map-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        iframe {
+            width: 90%;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #06d6a0;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        .explore-button {
+            display: inline-block;
+            background-color: #118ab2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .explore-button:hover {
+            background-color: #06d6a0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hogenakkal Falls</h1>
+        <p><i>The Niagara of India</i></p>
+    </header>
+
+    <section>
+        <h2>🌿 Introduction</h2>
+        <p>
+            Hogenakkal Falls, located on the Kaveri River in Dharmapuri district, is famous for its breathtaking
+            waterfalls, coracle rides, and medicinal baths. The falls cascade over rocky terrain creating a misty
+            landscape that enchants visitors.
+        </p>
+    </section>
+
+    <section>
+        <h2>🏞️ Natural Beauty & Biodiversity</h2>
+        <p>
+            The surrounding forests and riverbanks host a variety of flora and fauna. Birds like Kingfishers and
+            Egrets, as well as freshwater fish, are commonly found in the area. Medicinal herbs grow naturally along
+            the riverbanks.
+        </p>
+    </section>
+
+    <section>
+        <h2>📍 Map Location</h2>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.234567891234!2d78.141234567!3d12.1123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b017123456789ab%3A0xabcdef1234567890!2sHogenakkal%20Falls!5e0!3m2!1sen!2sin!4v1729801111111!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>📸 Photo Gallery</h2>
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Hogenakkal_Falls_view.jpg"
+                alt="Hogenakkal Falls">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Hogenakkal_Boat_Ride.jpg" alt="Coracle Ride">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Hogenakkal_River_Rocks.jpg"
+                alt="Rocky Terrain">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Hogenakkal_Falls_Scenery.jpg"
+                alt="Waterfall Mist">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Hogenakkal_Panorama.jpg" alt="Panoramic View">
+        </div>
+    </section>
+
+    <section style="text-align:center; margin-top: 30px;">
+        <a href="#" class="explore-button">← Back</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Nature Guide Project | Created by Rakshna S | St. Joseph’s College of Engineering</p>
+    </footer>
+
+</body>
+
+</html>

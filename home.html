@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Natural Wealth of Tamil Nadu</title>
+
+    <style>
+        /* =====================
+           Base Styles
+        ===================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Georgia", serif;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        /* =====================
+           Header
+        ===================== */
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #e8f5e9;
+            border-bottom: 2px solid #4caf50;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #2e7d32;
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+
+        .logo-img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: 2px solid #4caf50;
+        }
+
+        .navbar a {
+            color: #2e7d32;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #000000;
+        }
+
+        /* =====================
+           Hero Section
+        ===================== */
+        .hero {
+            height: 90vh;
+            background: linear-gradient(to bottom right, #a5d6a7, #e8f5e9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.8em;
+            color: #1b5e20;
+        }
+
+        .hero h1 span {
+            color: #004d40;
+        }
+
+        .hero p {
+            margin: 15px 0 25px;
+            font-size: 1.1em;
+            color: #2e7d32;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2e7d32;
+            color: #ffffff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1b5e20;
+        }
+
+        /* =====================
+           About Section
+        ===================== */
+        .about {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #f1f8e9;
+        }
+
+        .about h2 {
+            color: #1b5e20;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            max-width: 750px;
+            margin: 0 auto;
+            color: #2e7d32;
+        }
+
+        /* =====================
+           Footer
+        ===================== */
+        footer {
+            background-color: #1b5e20;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="topbar">
+        <div class="logo">
+            <img src="image.png" alt="Logo" class="logo-img">
+            <i>EV</i>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="places.html">Places</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Natural Wealth of <span>Tamil Nadu</span></h1>
+            <p>Discover the scenic beauty, wildlife, and heritage that make Tamil Nadu a natural treasure.</p>
+            <a href="places.html" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Tamil Nadu</h2>
+        <p>
+            Tamil Nadu, located in the southern part of India, is a land blessed with breathtaking natural beauty,
+            lush forests, majestic hills, serene beaches, and rich biodiversity. From the Nilgiri mountains to
+            the vibrant coastal plains, every corner of Tamil Nadu reflects nature’s wonder and cultural heritage.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Natural Wealth of Tamil Nadu. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
